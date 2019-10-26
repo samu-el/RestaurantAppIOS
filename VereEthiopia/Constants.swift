@@ -13,6 +13,6 @@ struct Identifiers {
     static let segueFromLoginToRestaurants = "segueFromLoginToRestaurants"
     static let restaurantTableViewCellIdentifier = "RestaurantListCell"
     static let segueToNoRestaurants = "segueToNoRestaurants"
-
-    
+    static let restaurantsCollectionViewCellIdentifier = "RestaurantsCollectionViewCell"
+    static let categoriesCollectionViewCellIdentifier = "CategoriesCollectionViewCell"
 }

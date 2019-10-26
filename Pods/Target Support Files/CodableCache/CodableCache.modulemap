@@ -1,0 +1,6 @@
+framework module CodableCache {
+  umbrella header "CodableCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Restaurant : Decodable {
+struct Restaurant : Codable {
     //MARK: - Properties
     
     var name : String?
@@ -23,7 +23,7 @@ struct Restaurant : Decodable {
     
 }
 
-struct openingHrs : Decodable {
+struct openingHrs : Codable {
     var from: String?
     var to: String?
 }

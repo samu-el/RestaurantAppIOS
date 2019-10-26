@@ -53,7 +53,7 @@ class RestaurantsListViewController: UIViewController {
                 }
                
             } else {
-                self.performSegue(withIdentifier: Identifiers.segueToNoRestaurants, sender: nil)
+//                self.performSegue(withIdentifier: Identifiers.segueToNoRestaurants, sender: nil)
             }
         }
 

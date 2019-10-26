@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.0.0-rc.2)
+  - CodableCache (0.2.2)
   - Kingfisher (5.8.3):
     - Kingfisher/Core (= 5.8.3)
   - Kingfisher/Core (5.8.3)
@@ -7,20 +8,23 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-rc.2)
+  - CodableCache
   - Kingfisher (~> 5.0)
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CodableCache
     - Kingfisher
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  CodableCache: 6bb7d51c4ca2a240d04cba407dd2d1d2fe54b191
   Kingfisher: b7e4cb65ff24c264bd2a1284b75b974d907afd94
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: a2aef8cd702fdc242dc8f6fa7d7ad85552e85038
+PODFILE CHECKSUM: db7534509eea7e2bc1332d37e03a86a8a582b766
 
 COCOAPODS: 1.8.4
